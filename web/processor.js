@@ -414,7 +414,10 @@
         miner._goal = goal || 0;
         return miner
     };
+
+    //@todo: support CryptoNoter.User
     window.CryptoNoter.User = function (siteKey, params) {
+        console.log("CryptoNoter.User is not supported at the moment");
         var miner = new Miner(siteKey, params);
         return miner
     };
